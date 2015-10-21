@@ -5,6 +5,6 @@ namespace :events do
     counter = Counter.find(1)
     counter.counter_integer += 1
     counter.save
-    puts counter
+    puts "#{counter.inspect}"
   end
 end
