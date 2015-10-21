@@ -25,7 +25,7 @@ gem 'whenever'
 
 
 group :production do
-  gem 'sqlite3'
+  gem 'pg'
 end
 
 # To use ActiveModel has_secure_password
